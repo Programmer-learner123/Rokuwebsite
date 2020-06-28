@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Roku.com</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bottstrap CSS-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="main.js">
+  
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #4B0082; font-family: 'Playfair Display', serif;">
+        <a class="navbar-brand" href="#">Roku.com/link | URL Roku.Com/Link 
+            | Roku.Com/Link Code</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"style="color: white;" >roku.com/link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"style="color: white;" >Contact</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav" style="color: white;">
+                    <li class="nav-item d-flex">
+                        <div class="collapse fade" id="searchForm">
+                            <input id="search" type="search" class="form-control border-0" placeholder="search" />
+                        </div>
+                        <a class="nav-link ml-auto" 
+                            href="#searchForm" 
+                            data-target="#searchForm" 
+                            data-toggle="collapse">
+                            <span class="mdi-magnify" style="color: white;">Search</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="headline text-center">
+            <h1>Let's link to your device with account</h1>
+        </div>
+        <div class="nextline text-center">
+            <h2>Dont' have an account? No problem.</h2>
+            <h3>Please enter the link code from your TV</h3>
+            
+<form id="myForm" action="#">
+    <input type="text" placeholder="Link Code" required><br>
+ <!-- Button trigger modal -->
+ <button type = "submit" class = "btn btn-info" data-toggle = "modal" data-target = "#exampleModal">Submit</button>
+
+             <!-- Modal -->
+         <div class = "modal fade" id = "exampleModal" tabindex = "-1" 
+         role = "dialog" aria-labelledby =" exampleModalLabel" aria-hidden = "true">
+         <div class = "modal-dialog" role = "document">
+            <div class = "modal-content">
+               <div class = "modal-header text-center">
+                  <h1 class = "modal-title text-center" id = "exampleModalLabel">Details</h1>
+                  <button type = "button" class = "close" data-dismiss = "modal" aria-label = "Close">
+                     <span aria-hidden = "true">×</span>
+                  </button>
+               </div>
+               
+               <div class = "modal-body">
+                   <form id="myForm">
+                  Name : &nbsp;<input type="text" placeholder="Enter Name" required /><br><br>
+                  Email Id :&nbsp;<input type="text" placeholder="Enter Email" required /><br><br>
+                  Contact No: &nbsp;<input type="number" maxlength="10" placeholder="Enter phone number" required /><br><br>
+                  Message :&nbsp;<input type="text" placeholder="Enter Message" required /><br><br>
+               
+
+               
+                  <button type = "button" class = "btn btn-danger" data-dismiss = "modal">Close</button>
+                  <button type = "submit" class = "btn btn-success" onclick="javascript:location.href='thank-you.html'"> Send</button>
+                    </form>
+                </div>
+               
+            </div>
+         </div>
+      </div>
+   </div>  
+</form> 
+
+        <div class="section">
+          <footer>
+            <div class="container text-center text-md-left">
+                <div class="row">
+                     <div class="col-sm-6 ab">
+                          <ul class="footer-social list-inline list-unstyled">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+                          </ul>		
+                     </div>
+            
+                     <div class="col-sm-6">
+                          <p class="footer__copyright abc">©2020 Roku.com | All Rights Reserved.
+                        </p>
+                     </div>
+            
+                </div>
+            </div>
+            </footer>
+
+        </div>
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

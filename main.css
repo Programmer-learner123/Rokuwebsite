@@ -1,0 +1,88 @@
+
+.form-control:focus, .form-control:active {
+    border-color: #fff;
+    outline: 0;
+}
+.navbar-nav .nav-link{
+    color: white;
+}
+
+.headline h1{
+    background: #dfdfdf;
+    color: #502f82;
+    font-weight: 700;
+    
+
+    font-size: 50px;
+    padding: 30px 10px;
+    box-sizing: border-box;
+    margin-left: 50px;
+    margin-top: 28px;
+    margin-right: 50px;
+    
+}
+h1{
+    display: block;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+}
+.nextline h2{
+    margin-top: 50px;
+    color: red;
+    font-weight: 800;
+    font-size: 36px;
+}
+h3{
+margin: 35px 0;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+form{
+    display: block;
+}
+#myForm input{
+   
+    height: 50px;
+    text-align: center;
+    background: #efefef;
+    border: 1px solid purple;
+    border-radius: 10px;
+    width: 300px;
+}
+#myForm button{
+    margin-top: 35px;
+    background: #502f82;
+    border-radius: 40px;
+    padding: 15px 50px;
+}
+fa {
+    display: inline-block;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.section{
+    padding-top: 35px;
+}
+
+.container {
+    width: 970px;
+}
+
+.list-inline ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+  }
+  .thank h1{
+    margin-top: 150px;
+    color: #502f82;
+    font-weight: 800;
+    padding-left: 120px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
